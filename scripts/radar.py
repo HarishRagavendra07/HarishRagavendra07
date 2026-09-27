@@ -3,23 +3,22 @@ import math
 from pathlib import Path
 
 SKILL_RADAR = {
-    "DSA": 70,
-    "JavaScript": 80,
-    "React": 75,
-    "Node / API": 75,
-    "Databases": 70,
-    "Python": 80,
-    "Data Science": 70,
-    "HTML / CSS": 80,
+    "Python": 90,
+    "AI / ML": 85,
+    "Data Eng": 85,
+    "Cloud": 80,
+    "Backend / APIs": 80,
+    "DevOps / CI-CD": 75,
+    "SQL": 85,
+    "C++": 70,
 }
 
 LANGUAGE_MIX = {
-    "JavaScript": 85,
-    "Python": 75,
-    "R": 45,
-    "SQL": 50,
-    "HTML": 60,
-    "CSS": 55,
+    "Python": 90,
+    "SQL": 80,
+    "PySpark": 80,
+    "C++": 65,
+    "JavaScript": 60,
 }
 
 GREEN = "#39ff14"
