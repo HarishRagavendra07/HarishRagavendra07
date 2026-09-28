@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/HarishRagavendra07.png" width="120" style="border-radius:50%" alt="Harish Ragavendra" />
+<img src="./assets/profile.png" width="140" alt="Harish Ragavendra" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=39FF14&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Harish+Ragavendra+%F0%9F%91%8B;Software+Engineer;AI+%2F+ML+Engineer;Data+Engineer;MSc+AI+%40+Dublin+City+University" alt="Typing intro" />
 
@@ -68,7 +68,7 @@ experience building REST APIs, microservices and cloud-native data pipelines.
 - GDPR-compliant PostgreSQL schema with HMAC-SHA256 pseudonymisation and EXPLAIN ANALYZE-tuned queries
 - Plotly Dash dashboard and FastAPI REST API, deployed to Azure Container Apps via GitHub Actions CI/CD
 
-**📸 Instaclone** — *full-stack Instagram clone*<br/>
+**📸 [Instaclone](https://github.com/HarishRagavendra07/instagram_clone)** — *full-stack Instagram clone*<br/>
 `MongoDB` `Express` `React` `Node.js` `Socket.io`
 - Posts with images stored in MongoDB, follows, following and global feeds that update live, direct messages and 24-hour stories
 
