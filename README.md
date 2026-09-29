@@ -68,6 +68,12 @@ experience building REST APIs, microservices and cloud-native data pipelines.
 - GDPR-compliant PostgreSQL schema with HMAC-SHA256 pseudonymisation and EXPLAIN ANALYZE-tuned queries
 - Plotly Dash dashboard and FastAPI REST API, deployed to Azure Container Apps via GitHub Actions CI/CD
 
+**🪐 [NASA Exoplanet Query](https://github.com/HarishRagavendra07/nasa-exoplanet)** — *search 6,000+ confirmed exoplanets* · [**Live demo ↗**](https://harishragavendra07.github.io/nasa-exoplanet/)<br/>
+`React` `Vite` `JavaScript` `GitHub Actions` `GitHub Pages`
+- Query NASA's Exoplanet Archive by discovery year, method, host star and facility, with sortable results linking to NASA's system pages
+- Per-field inverted indexes answer multi-field queries in **under 1 ms** by scanning only the smallest candidate set, not the whole catalogue
+- NASA's ~20 s API is pre-fetched into a 47 KB snapshot for instant startup, refreshed and redeployed weekly by a CI pipeline
+
 **📸 [Instaclone](https://github.com/HarishRagavendra07/instagram_clone)** — *full-stack Instagram clone*<br/>
 `MongoDB` `Express` `React` `Node.js` `Socket.io`
 - Posts with images stored in MongoDB, follows, following and global feeds that update live, direct messages and 24-hour stories
