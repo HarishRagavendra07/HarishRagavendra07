@@ -7,7 +7,7 @@
 </style>
 <rect width="100%" height="100%" rx="12" fill="#0d1117" stroke="#21262d"/>
 <text x="20" y="30" class="title">language mix</text>
-<text x="20" y="46" class="subtitle">from 14 public repos · updated 2026-10-02</text>
+<text x="20" y="46" class="subtitle">from 14 public repos · updated 2026-10-03</text>
 <polygon points="240.0,207.5 268.1,223.8 268.1,256.2 240.0,272.5 211.9,256.2 211.9,223.8" fill="none" stroke="#2a3a2a"/><polygon points="240.0,175.0 296.3,207.5 296.3,272.5 240.0,305.0 183.7,272.5 183.7,207.5" fill="none" stroke="#2a3a2a"/><polygon points="240.0,142.5 324.4,191.2 324.4,288.8 240.0,337.5 155.6,288.8 155.6,191.2" fill="none" stroke="#2a3a2a"/><polygon points="240.0,110.0 352.6,175.0 352.6,305.0 240.0,370.0 127.4,305.0 127.4,175.0" fill="none" stroke="#2a3a2a"/><line x1="240" y1="240" x2="240.0" y2="110.0" stroke="#2a3a2a"/><line x1="240" y1="240" x2="352.6" y2="175.0" stroke="#2a3a2a"/><line x1="240" y1="240" x2="352.6" y2="305.0" stroke="#2a3a2a"/><line x1="240" y1="240" x2="240.0" y2="370.0" stroke="#2a3a2a"/><line x1="240" y1="240" x2="127.4" y2="305.0" stroke="#2a3a2a"/><line x1="240" y1="240" x2="127.4" y2="175.0" stroke="#2a3a2a"/>
 <g>
   <polygon points="240.0,110.0 318.3,194.8 275.9,260.7 240.0,279.0 206.4,259.4 225.0,231.3" fill="#39ff14" fill-opacity="0.25" stroke="#39ff14" stroke-width="2"/>
