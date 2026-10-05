@@ -132,6 +132,26 @@ Detection layers SQL typology rules (structuring, layering, circular chains), Is
 </details>
 
 <details>
+<summary><b>AgroIE — Bilingual RAG Assistant for Irish Farmers</b> (in progress)</summary>
+<br/>
+
+A retrieval-augmented chatbot that answers farming questions in English and Irish (Gaeilge), grounded in Teagasc guidelines, CAP/BISS schemes, Irish nitrates rules and live Met Éireann weather.
+
+| Attribute | Detail |
+|---|---|
+| **Stack** | Python · FastAPI · LangChain · AWS Bedrock (Claude 3 Sonnet, Titan embeddings) · Amazon OpenSearch · Ollama · ChromaDB · Docker · Kubernetes (EKS) · Terraform · GitHub Actions |
+| **Architecture** | 5 FastAPI microservices: gateway, chat (RAG), language, ingestion, weather |
+| **Language** | EN ↔ GA detection (langdetect, Irish keyword check, AWS Comprehend fallback) and AWS Translate with a custom farming glossary |
+| **Security** | AWS Cognito JWT validation at the gateway · IAM roles for service accounts on EKS |
+| **Infrastructure** | Terraform for VPC, EKS, OpenSearch, ECR, S3 and IAM · CI/CD builds every image, pushes to ECR and deploys to EKS |
+| **Achieved** | One codebase for two environments: free local stack (Ollama, ChromaDB, sentence-transformers) and AWS production stack |
+| **Repository** | [HarishRagavendra07/AgroIE](https://github.com/HarishRagavendra07/AgroIE) |
+
+Every answer is generated only from retrieved context and cites its source documents; Irish questions are translated for retrieval and the answer is translated back. Next up: the Next.js bilingual chat UI, subsidy and user services, and Prometheus / Grafana observability.
+
+</details>
+
+<details>
 <summary><b>NASA Exoplanet Query</b> (search 6,000+ confirmed exoplanets)</summary>
 <br/>
 
