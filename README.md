@@ -14,7 +14,7 @@
 
 ## About
 
-I'm **Harish Ragavendra Chittibabu**, a **Software, Data and AI Engineer** and an **MSc Artificial Intelligence** candidate at Dublin City University. I spent three years as an Associate Software Engineer at Tanama Software, building **REST APIs, microservices and cloud-native data pipelines** with PySpark, Databricks, AWS and Azure.
+I'm **Harish Ragavendra Chittibabu**, a **Software, Data and AI Engineer** with an **MSc in Artificial Intelligence** from Dublin City University. I spent three years as a Software Engineer at Tanama Software, building **REST APIs, microservices and cloud-native data pipelines** with PySpark, Databricks, AWS and Azure.
 
 My work sits where **data engineering** meets **applied AI**. I build pipelines that stay trustworthy in production through validation, observability and automation, and models that are measurable and explainable, not just notebook experiments.
 
